@@ -4,7 +4,7 @@
 
 Mở tập tin vừa tải lên 
 
-copy dòng lệnh đầu tiên ấn excute để tạo database , và bôi đen dòng còn lại và excute tiếp
+copy dòng lệnh đầu tiên ấn excute (hoặc F5) để tạo database , và bôi đen dòng còn lại và excute (hoặc F5)  tiếp
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/CHAY%20SQL.png?raw=true)
 
@@ -57,7 +57,7 @@ Cửa sổ hiển thị cơ sở giáo viên và danh sách đào tạo
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/101831265_263438288225349_4441083698317623296_n.png?raw=true)
 
- Từ băng này ta có các thao tác xóa , hiển thị thông tin giáo viên ở dưới như sau :
+ *Từ bảng này ta có các thao tác xóa , hiển thị thông tin giáo viên ở dưới như sau : *
 
 2.2.1 Ở hiện thị danh sách giáo viên  
 
