@@ -27,13 +27,13 @@ create table GiaoVien
    )
    
   
-  insert into COSO values ('CS01',N'PHƯỚC LONG ') -- nvarchar can co N truoc moi nhan du dau
+  insert into COSO values ('CS01',N'PHƯỚC LONG ') 
   insert into COSO values ('CS02',N'PHƯỚC ĐỒNG')
   
  
  
   
-insert into DONVI values ('DV01',N'Lê Qúy Đôn ',N'CS01') -- nhung cai duoi e sua tuong tu
+insert into DONVI values ('DV01',N'Lê Qúy Đôn ',N'CS01') 
 insert into DONVI values ('DV02',N'Cao đẳng Nghề',N'CS02')
 insert into DONVI values ('DV03',N'Cao đẳng Nghề',N'CS01')
 insert into DONVI values ('DV04',N'Lê Qúy Đôn',N'CS02')
