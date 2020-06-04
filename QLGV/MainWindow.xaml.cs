@@ -25,8 +25,8 @@ namespace QLGV
             InitializeComponent();
             //txtServerName.Text = "DESKTOP-8PS0UCH";
             txtCataLog.Text = "QLGV";
-         txtUserName.Text = "user";
-            txtPassword.Password = "12345678"; 
+         //txtUserName.Text = "user";
+          //txtPassword.Password = "12345678"; 
         }
             
         private void BtnConnect_Click(object sender, RoutedEventArgs e)
