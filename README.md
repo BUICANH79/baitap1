@@ -3,23 +3,23 @@
 
 [2.Cách sử dụng](#sudungct)
 
-[3. Lời kết ](#h)
+[3. Lời Kết ](#h)
 
 
 <a name="Modau"></a>
 ### 1.Các bước để chạy CT Quản lý Giaó Viên 
 
-**1.1tải tập tin QLGV.sql về và sử dụng  SQL SERVER,(KHUYẾN KHÍCH SỬ DỤNG SQL 2012 TRỞ LÊN )**
+**1.1Tải tập tin QLGV.sql về và sử dụng  SQL SERVER,(KHUYẾN KHÍCH SỬ DỤNG SQL 2012 TRỞ LÊN )**
 
 Mở tập tin vừa tải lên 
 
-copy dòng lệnh đầu tiên ấn excute (hoặc F5) để tạo database , và bôi đen dòng còn lại và excute (hoặc F5)  tiếp
+Copy dòng lệnh đầu tiên ấn excute (hoặc F5) để tạo database , và bôi đen dòng còn lại và excute (hoặc F5)  tiếp
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/CHAY%20SQL.png?raw=true)
 
  **1.2Qua phần mềm visual studio  ( khuyến khích sử dụng VS từ 2017 )**
 
- mở file visual tải lên , mở file visual studio  và chạy chương trình , Người dùng ấn start để chạy CT
+ Mở file visual tải lên , mở file visual studio  và chạy chương trình , Người dùng ấn start để chạy CT
  
 ![image](https://github.com/taochangbang123/bt1/blob/master/BAT%20DAU%20CT.png?raw=true)
 
@@ -31,7 +31,7 @@ CT sẽ được chạy .
 <a name="sudungct"></a>
 ### 2.Sử dụng CT
 
-**2.1 Sau khi start CT hiển thị như sau : **
+**2.1 Sau khi start CT hiển thị như sau :**
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/KET%20NOI%20DU%20LIEU.png?raw=true)
 
@@ -46,7 +46,7 @@ CT sẽ được chạy .
 
 Nếu muốn thoát CT bạn có thể ấn vào thoát và chọn yes để thoát , no để ở lại CT
 
-**2.2 Ấn kết nối sau khi đã kết nối dữ liệu thành công , ( nếu lỗi CT sẽ báo lỗi bạn mắc phải để sửa) **
+**2.2 Ấn kết nối sau khi đã kết nối dữ liệu thành công , ( nếu lỗi CT sẽ báo lỗi bạn mắc phải để sửa)**
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/DANH%20S%C3%81CH.png?raw=true)
 
@@ -68,7 +68,7 @@ Cửa sổ hiển thị cơ sở giáo viên và danh sách đào tạo
 
  *Từ bảng này ta có các thao tác xóa , hiển thị thông tin giáo viên ở dưới như sau : *
 
-**2.2.1 Ở hiện thị danh sách giáo viên  **
+**2.2.1 Ở hiện thị danh sách giáo viên**
 
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/%E1%BA%A8N%20MENU.png?raw=true) 
@@ -85,7 +85,7 @@ Cửa sổ hiển thị cơ sở giáo viên và danh sách đào tạo
  Lúc chọn bạn chọn xóa , sẽ hỏi bạn thêm  1 lần nữa , nếu chắc chắn muốn xóa ấn yes , nếu không ấn no để quay về danh sách
  
  
- **2.2.3 hiển thị thông tin giáo viên**
+ **2.2.3Hiển thị thông tin giáo viên**
  
 ![image](https://github.com/taochangbang123/bt1/blob/master/hi%E1%BB%83n%20th%E1%BB%8B%20th%C3%B4ng%20tin%20Gv.png?raw=true)
 
@@ -109,12 +109,13 @@ Kết thúc CT bằng nút thoát và chọn yes ở menu.
 
 
 <a name="h"></a>
-### 3 Lời kết
+### 3 Lời Kết
 CHƯƠNG TRÌNH QUẢN LÝ GIÁO VIÊN ĐƠN GIẢN .ĐỂ QUẢN LÝ GIÁO VIÊN Ở CƠ SỞ ĐÀO TẠO ,  ĐƠN VỊ ĐÀO TẠO
 
-1 số code đc tham khảo trong bài https://alexyangit.wordpress.com/2017/10/02/ket-noi-database-sql-server-su-dung-c/
+*1 số code đc tham khảo trong bài* https://alexyangit.wordpress.com/2017/10/02/ket-noi-database-sql-server-su-dung-c/
 
 https://csharpcanban.com/wpf-huong-dan-hien-thong-bao-truoc-khi-thoat-ung-dung.html
+
 ...
 
 
