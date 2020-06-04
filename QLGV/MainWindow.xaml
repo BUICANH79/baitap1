@@ -1,0 +1,20 @@
+﻿<Window x:Class="QLGV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLGV"
+        mc:Ignorable="d" Height="300" Width="450" Title="Kết nối hệ thống..." WindowStartupLocation="CenterScreen" Icon="logo.ico">
+    <Grid Background="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}">
+        <Label Content="Tên máy:" HorizontalAlignment="Left" Margin="54,52,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,2.89"/>
+        <Label Content="Tên CSDL:" HorizontalAlignment="Left" Margin="54,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,2.89"/>
+        <Label Content="User:" HorizontalAlignment="Left" Margin="54,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,2.89"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="54,162,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.454,2.89"/>
+        <TextBox x:Name="txtServerName" HorizontalAlignment="Left" Height="23" Margin="156,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232"/>
+        <TextBox x:Name="txtCataLog" HorizontalAlignment="Left" Height="23" Margin="156,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232"/>
+        <TextBox x:Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="156,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="156,162,0,0" VerticalAlignment="Top" Width="232"/>
+        <Button x:Name="btnConnect" Content="Kết nối..." HorizontalAlignment="Left" Margin="219,204,0,0" VerticalAlignment="Top" Width="75" Click="BtnConnect_Click"/>
+        <Button x:Name="btnExit" Content="Thoát..." HorizontalAlignment="Left" Margin="313,204,0,0" VerticalAlignment="Top" Width="75" Click="BtnExit_Click"/>
+    </Grid>
+</Window>

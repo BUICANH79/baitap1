@@ -1,0 +1,64 @@
+﻿<Window x:Class="QLGV.Forms.DSGiaoVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Giáo Viên" Height="350" Width="500" Icon="logo.ico">
+    <Grid>
+        <StackPanel Orientation="Vertical" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}">
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Cơ sở" Width="120" />
+                <ComboBox ItemsSource="{Binding Path=ListCoSo}"
+                    DisplayMemberPath="TenCoSo"
+                    SelectedValuePath="MaCoSo"
+                    SelectedValue="{Binding Path=CoSoItem}"
+                    Width="200" Height="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Đơn vị đào tạo" Width="120" />
+                <ComboBox ItemsSource="{Binding Path=ListDonVi}"
+                    DisplayMemberPath="TenDonVi"
+                    SelectedValuePath="MaDonVi"
+                    SelectedValue="{Binding Path=DonViItem}"
+                    Width="200" Height="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <TextBlock Text="Danh sách giáo viên:" Width="120" />
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20,20,0,0">
+                <DataGrid x:Name="grGiaoVien" Height="130" ItemsSource="{Binding ListGiaovien}" SelectedItem="{Binding GiaoVienItem, Mode=OneWay}" CanUserDeleteRows="False" IsReadOnly="True" Width="452">
+                    <DataGrid.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="Hiển thị thông tin chi tiết của GV" Click="grGiaoVien_ShowInfo" IsEnabled="{Binding IsShowContextMenu}" />
+                            <MenuItem Header="Xóa GV đang chọn" Click="grGiaoVien_Delete" IsEnabled="{Binding IsShowContextMenu}" />
+                        </ContextMenu>
+                    </DataGrid.ContextMenu>
+                    <DataGrid.RowStyle>
+                        <Style TargetType="{x:Type DataGridRow}">
+                            <EventSetter Event="MouseDoubleClick" Handler="grGiaoVien_MouseDoubleClick"/>
+                        </Style>
+                    </DataGrid.RowStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding STT}"  Header="STT" Width="70" />
+                        <DataGridTextColumn Binding="{Binding TenGiaoVien}"  Header="Họ và tên giáo viên"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+            </StackPanel>
+          
+                <Grid Margin="20,20,20,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                    <Button x:Name="btnThoat" Width="75" Height="20" Content="Thoát" Click="BtnThoatClick"/>
+                    </StackPanel>
+                </Grid>
+        </StackPanel>
+       
+
+    </Grid>
+</Window>
