@@ -76,7 +76,7 @@ Nếu muốn thoát CT bạn có thể ấn vào thoát và chọn yes để tho
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/%E1%BA%A8N%20MENU.png?raw=true) 
  
- Lúc không có giáo viên thanh menu hiển thị thông tin và Xóa Gv sẽ bị mờ đi/
+ *Lúc không có giáo viên thanh menu hiển thị thông tin và Xóa Gv sẽ bị mờ đi
 
 
 **2.2.1Cửa sổ hiển thị cơ sở giáo viên và danh sách đào tạo**
@@ -96,7 +96,7 @@ Nếu muốn thoát CT bạn có thể ấn vào thoát và chọn yes để tho
 
 ![image](https://github.com/taochangbang123/bt1/blob/master/101831265_263438288225349_4441083698317623296_n.png?raw=true)
 
- *Từ bảng này ta có các thao tác xóa , hiển thị thông tin giáo viên ở dưới như sau : *
+ *Từ bảng này ta có các thao tác xóa , hiển thị thông tin giáo viên ở dưới như sau :
 
 
  
